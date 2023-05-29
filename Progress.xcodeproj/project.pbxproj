@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B243E5762A250412009489DE /* DayDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B243E5752A250412009489DE /* DayDataModel.swift */; };
+		B243E5782A250AC4009489DE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B243E5772A250AC4009489DE /* HomeViewController.swift */; };
+		B243E57A2A250D61009489DE /* ConsistencyViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B243E5792A250D61009489DE /* ConsistencyViewTableViewCell.swift */; };
+		B243E57C2A251022009489DE /* MonthCheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B243E57B2A251022009489DE /* MonthCheckBoxView.swift */; };
+		B243E5812A251CA9009489DE /* MonthTaskViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B243E5802A251CA9009489DE /* MonthTaskViewTableViewCell.swift */; };
+		B243E5842A252598009489DE /* DayCheckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B243E5822A252598009489DE /* DayCheckCell.swift */; };
+		B243E5852A252598009489DE /* DayCheckCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B243E5832A252598009489DE /* DayCheckCell.xib */; };
+		B243E5882A252E68009489DE /* MonthConsistencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B243E5872A252E68009489DE /* MonthConsistencyCell.swift */; };
 		B290659F2A14DD5A003E499D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B290659E2A14DD5A003E499D /* AppDelegate.swift */; };
 		B29065A12A14DD5A003E499D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29065A02A14DD5A003E499D /* SceneDelegate.swift */; };
 		B29065A32A14DD5A003E499D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29065A22A14DD5A003E499D /* ViewController.swift */; };
@@ -17,6 +25,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B243E5752A250412009489DE /* DayDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDataModel.swift; sourceTree = "<group>"; };
+		B243E5772A250AC4009489DE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B243E5792A250D61009489DE /* ConsistencyViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsistencyViewTableViewCell.swift; sourceTree = "<group>"; };
+		B243E57B2A251022009489DE /* MonthCheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthCheckBoxView.swift; sourceTree = "<group>"; };
+		B243E5802A251CA9009489DE /* MonthTaskViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthTaskViewTableViewCell.swift; sourceTree = "<group>"; };
+		B243E5822A252598009489DE /* DayCheckCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCheckCell.swift; sourceTree = "<group>"; };
+		B243E5832A252598009489DE /* DayCheckCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DayCheckCell.xib; sourceTree = "<group>"; };
+		B243E5872A252E68009489DE /* MonthConsistencyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthConsistencyCell.swift; sourceTree = "<group>"; };
 		B290659B2A14DD5A003E499D /* Progress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Progress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B290659E2A14DD5A003E499D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B29065A02A14DD5A003E499D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +55,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B243E5722A250088009489DE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B243E5752A250412009489DE /* DayDataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B243E5732A250093009489DE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B243E57F2A251BAD009489DE /* MonthConsistencyView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B243E5742A2500AD009489DE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B243E5772A250AC4009489DE /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B243E57F2A251BAD009489DE /* MonthConsistencyView */ = {
+			isa = PBXGroup;
+			children = (
+				B243E5792A250D61009489DE /* ConsistencyViewTableViewCell.swift */,
+				B243E57B2A251022009489DE /* MonthCheckBoxView.swift */,
+				B243E5802A251CA9009489DE /* MonthTaskViewTableViewCell.swift */,
+				B243E5822A252598009489DE /* DayCheckCell.swift */,
+				B243E5832A252598009489DE /* DayCheckCell.xib */,
+				B243E5872A252E68009489DE /* MonthConsistencyCell.swift */,
+			);
+			path = MonthConsistencyView;
+			sourceTree = "<group>";
+		};
 		B29065922A14DD5A003E499D = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +111,9 @@
 		B290659D2A14DD5A003E499D /* Progress */ = {
 			isa = PBXGroup;
 			children = (
+				B243E5722A250088009489DE /* Models */,
+				B243E5732A250093009489DE /* Views */,
+				B243E5742A2500AD009489DE /* Controllers */,
 				B290659E2A14DD5A003E499D /* AppDelegate.swift */,
 				B29065A02A14DD5A003E499D /* SceneDelegate.swift */,
 				B29065A22A14DD5A003E499D /* ViewController.swift */,
@@ -129,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B29065AE2A14DD5C003E499D /* LaunchScreen.storyboard in Resources */,
+				B243E5852A252598009489DE /* DayCheckCell.xib in Resources */,
 				B29065AB2A14DD5C003E499D /* Assets.xcassets in Resources */,
 				B29065A62A14DD5A003E499D /* Main.storyboard in Resources */,
 			);
@@ -141,10 +198,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B243E5762A250412009489DE /* DayDataModel.swift in Sources */,
+				B243E57A2A250D61009489DE /* ConsistencyViewTableViewCell.swift in Sources */,
 				B29065A32A14DD5A003E499D /* ViewController.swift in Sources */,
 				B290659F2A14DD5A003E499D /* AppDelegate.swift in Sources */,
 				B29065A92A14DD5A003E499D /* Progress.xcdatamodeld in Sources */,
+				B243E5842A252598009489DE /* DayCheckCell.swift in Sources */,
+				B243E57C2A251022009489DE /* MonthCheckBoxView.swift in Sources */,
 				B29065A12A14DD5A003E499D /* SceneDelegate.swift in Sources */,
+				B243E5882A252E68009489DE /* MonthConsistencyCell.swift in Sources */,
+				B243E5812A251CA9009489DE /* MonthTaskViewTableViewCell.swift in Sources */,
+				B243E5782A250AC4009489DE /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,11 +358,13 @@
 				DEVELOPMENT_TEAM = 29X3G5JD43;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Progress/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,11 +388,13 @@
 				DEVELOPMENT_TEAM = 29X3G5JD43;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Progress/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
